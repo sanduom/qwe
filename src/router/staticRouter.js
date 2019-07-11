@@ -18,15 +18,15 @@ const staticRouter=[
     },{
         path:'/error/403',
         name:'错误403',
-        component:() => import('@/view/error/AppError403')
+        component:() => import('@/views/error/AppError403')
     },{
         path:'/error/404',
         name:'错误404',
-        component:() => import('@/view/error/AppError404')
+        component:() => import('@/views/error/AppError404')
     },{
         path:'/error/500',
         name:'错误500',
-        component:() => import('@/view/error/AppError500')
+        component:() => import('@/views/error/AppError500')
     }
 ]
 
