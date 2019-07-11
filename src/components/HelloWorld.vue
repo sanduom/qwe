@@ -42,7 +42,7 @@ export default {
   },
   methods:{
     login33(){
-      requestLogin({'name':'linjinze999' }).then(data =>this.$alert(data))
+      requestLogin({'name':'123' }).then(data =>this.$alert(data))
       console.log(process.env)
     }
   }

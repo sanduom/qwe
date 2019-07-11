@@ -1,7 +1,7 @@
 import axios from 'axios'
 import qs from 'qs'
 import store from '../store/index'
-import {MessageBox} from 'element-ui'
+import {MessageBox,Message} from 'element-ui'
 
     /*
      *一 request 
@@ -59,6 +59,7 @@ export const request = (url,params = {},config = {},autoErrorRes = true,autoErro
         }
     }
     return axiosCustom(args).then((res) =>{
+        //未登陆情况下
         if(res.data.type == 'login'){
             Message({
                 message: '登陆失效，请重新登陆',type:'error'

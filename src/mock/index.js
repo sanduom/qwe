@@ -7,17 +7,12 @@ export default {
             'token':'fdsjfhjkdshfkldsajfjasdfbjsdkfhsdajfj',
             'result': {
                 'id': '100001',
-                'name': '林苗',
+                'name': '123',
                 'roles':['admin']
             }
         })
         Mock.mock(BASE_PATH + '/api/user/register',{
             'code' : 1,
-            // 'result': {
-            //     'id': '100001',
-            //     'name': '林苗',
-            //     'roles':['admin']
-            // }
         })
         Mock.mock('/api/user/info', {
             'code': 1,

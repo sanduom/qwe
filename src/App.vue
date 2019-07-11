@@ -11,5 +11,6 @@
 <style lang="scss">
 #app {
   height: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 </style>
