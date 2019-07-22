@@ -41,7 +41,7 @@ export default {
     data(){
         return{
             logining:false,
-            fromUrl:'/',
+            fromUrl:'/index2',
             ruleForm: {
                 account:"admin",
                 checkPass: "123456"

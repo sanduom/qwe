@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import axios from 'axios'
 import Vuex from 'vuex'
+import {requestUserInfo} from '@/api/user'
 
 Vue.use(Vuex)
 
@@ -27,7 +27,7 @@ export default new Vuex.Store({
       state.user.permissions = []
       state.user.permissions = []
     },
-    updateUser(state,{source}){
+    updateSource(state,{source}){
       state.source= source
     }
   },

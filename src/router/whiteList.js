@@ -5,6 +5,8 @@ const whiteList = [
     '/error/500',
     '/login',
     '/register',
+    '/level1',
+    // '/index'
 ]
 
 export default whiteList
